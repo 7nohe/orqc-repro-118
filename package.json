@@ -1,0 +1,20 @@
+{
+  "name": "orqc-repro-118",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "codegen": "openapi-rq -i ./openapi.json -o ./openapi",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@7nohe/openapi-react-query-codegen": "^1.4.0",
+    "typescript": "5.2.2"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.37.1"
+  }
+}
